@@ -28,14 +28,14 @@ function Navbar() {
             <a
               key={index}
               href={button.link}
-              className="text-gray-700 hover:text-[#88338B]"
+              className="text-[#4A5565] hover:text-[#88338B] font-inter font-normal text-[14px] "
             >
               {button.label}
             </a>
           ))}
         </div>
         <div>
-          <button className="bg-[linear-gradient(90deg,#F3E8FF_0%,#FAF5FF_100%)]  text-[#88338B] px-4 py-2  hover:text-white hover:bg-none hover:bg-[#88338B] rounded-full transition-all duration-200 ease-in-out curser-pointer hover:shadow-sm active:scale-95 ">
+          <button className="bg-[linear-gradient(90deg,#F3E8FF_0%,#FAF5FF_100%)]  text-[#88338B] px-4 py-2  hover:text-white hover:bg-none hover:bg-[#88338B] rounded-full transition-all duration-200 ease-in-out curser-pointer hover:shadow-sm active:scale-95 font-normal text-[14px] ">
             Schedule a Demo
           </button>
         </div>
